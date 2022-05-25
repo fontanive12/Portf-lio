@@ -1,0 +1,82 @@
+.contact {
+    height: 800px;
+    width: 800px;
+    position: relative;    
+    margin: auto;
+    margin-top: 200px;   
+    margin-bottom: 100px;   
+    align-items: center;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+}
+
+.contact__title {
+    font-size: 40px;
+    line-height: 55px;
+    font-style: normal;
+    font-weight: 400;
+    color: #111111;
+}
+
+.contact__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    color: #363636;
+}
+
+.address {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.form {
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    
+}
+
+.form__label {
+    width: 400px;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+
+.form-item {
+    width: 300px;
+    height: 30px;
+    display: inline-block;
+    color:black
+}
+
+.form__box {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.form-item__text {
+    width: 705px;
+    height: 100px;
+    display: inline-block;
+}
+
+.form-item__button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 147px;
+height: 40px;
+text-align: center;
+background: #FAFAFA;
+border: 1px solid #EAEAEA;
+border-radius: 20px;
+margin-left: 280px;
+}
