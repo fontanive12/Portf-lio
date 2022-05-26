@@ -4,8 +4,10 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    width: 1650px;
     margin-bottom: auto;
     padding: 0px 70px;
+    
 }
 
 .footer__logo {
@@ -68,10 +70,18 @@
         margin-top: 56px;
         flex-direction: column;
         padding: 32px 0 24px 0;
+        height: 80px;
+        box-sizing: border-box;
     }
 
     .footer__logo {
-        width: 100px;
+        width: 50%;
+        height: 50px;
+        margin-left: 0px;
     }
 
-} */
+    .fa-brans{
+
+    }
+
+} 

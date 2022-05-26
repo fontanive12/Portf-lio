@@ -10,39 +10,58 @@
 
 .about__title {
     font-size: 42px;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
     font-weight: 400;
     display: flex;
+    color: #111;
 }
 
 .about__text {
     font-size: 18px;
     line-height: 30px;
-    font-family: 'IBM Plex Mono';
-    font-style: normal;
     font-weight: 400;
     margin-top: 50px;    
     display: flex;
+    color: #363636;
+}
+
+.about__subtitle {
+    color: #363636;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
 }
 
 .work-school {
     display: flex;
     margin: auto;
+    color: #363636;
 }
 
 .about__work {
     margin-left: 0;
     width: 33%;
+    color: #363636;
 }
 .work__function {
     text-align: center;
-  
     width: 33%;
+    color: #363636;
 }
                
 .about__work__date {
     margin: auto;
     margin-right: 0;
+    color: #363636;
+}
+
+@media only screen and (max-width:480px) {
+    .about {
+        width: 320px;
+    }
+
+    .about__title {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 40px;
+    }
 
 }

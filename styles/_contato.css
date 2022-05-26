@@ -59,6 +59,9 @@
 .form__box {
     display: inline-block;
     margin-top: 0;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
 }
 
 .form-item__text {
@@ -79,4 +82,7 @@ background: #FAFAFA;
 border: 1px solid #EAEAEA;
 border-radius: 20px;
 margin-left: 280px;
+
+font-family: 'IBM Plex Mono';
+font-style: normal;
 }

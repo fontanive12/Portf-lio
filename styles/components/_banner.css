@@ -13,7 +13,6 @@
     font-size: 40px;
     line-height: 55px;
     font-family: 'IBM Plex Mono';
-    font-family: 'IBM Plex Mono';
     font-style: normal;
     font-weight: 400;
     color: #111111;
@@ -174,9 +173,7 @@ color: #111111; */
 @media only screen and (max-width:480px) {
 
     .banner {
-        height: 1000px;
-    width: 400px;
-    
+        width: 380px;    
     }
 
     .banner__title {
@@ -185,9 +182,8 @@ color: #111111; */
     }
 
     .banner__image {
-        display: flex;
-        position: relative;
-        margin: auto;
+        width: 335px;
+        height: 200px;
     }
 
     .banner__subtitle {
@@ -195,18 +191,50 @@ color: #111111; */
         line-height: 18px;
     }
 
-    .banner__text {
-        font-family: 'IBM Plex Mono';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 40px;
-        position: relative;
+    .icons {
         margin: auto;
-        margin-top: 30px;
-        display: flex;
-        color: #363636;
+        margin-left: 20px;
+    }
+
+    .banner__text {
+        width: 335px;   
     } 
+
+    .divisor {
+        width: 335px;
+        height: 6px;
+    }
+
+    .fa-brands {
+        width: 19.375px;
+        border-radius: 0px;
+
+    }
+
+    .project__title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .project__subtitle {
+        height: 15px;
+        margin-left: -10px;
+    }
+
+    .project__description {
+        width: 335px;
+       
+        border-radius: 4px;
+    }
+
+    .project__text {
+        width: 330px;
+        height: 250px;
+        font-size: 13px;
+        line-height: 26px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+    }
 }
 
 /* or 200% 
